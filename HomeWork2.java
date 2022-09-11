@@ -1,5 +1,5 @@
 /**
- *Java basic: HomeWork12
+ *Java basic: HomeWork2
  *
  @author Muzaffar Eshonqulov
  @todo 11.9.2022(working on tasks =10hour)
