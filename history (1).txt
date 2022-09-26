@@ -1,0 +1,20 @@
+   0 cd /
+   1 ls
+   2 mkdir /home/user/start
+   3 mkdir -p  /home/user/start
+   4 tree /home
+   5 > /home/user/start/1.txt
+   6 tree /home
+   7 echo > 1.txt
+   8 echo "Start" > 1.txt
+   9 date > /home/user/start/1.txt
+  10 cat  /home/user/start/1.txt
+  11 mkdir -p /opt/task
+  12 > /opt/task/start.txt
+  13 cp /home/user/start/1.txt /opt/task/start.txt
+  14 tree /opt
+  15 cat /opt/task/start.txt
+  16 ls -la  /opt/task/start.txt
+  17 ls -la  /opt/task/start.txt | awk '{print $9, $10, $11}'
+  18 history
+  19 history > /tmp/history.txt
