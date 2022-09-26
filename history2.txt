@@ -1,0 +1,41 @@
+   0 cd /
+   1 ls
+   2 mkdir /home/user/start
+   3 mkdir -p  /home/user/start
+   4 tree /home
+   5 > /home/user/start/1.txt
+   6 tree /home
+   7 echo > 1.txt
+   8 echo "Start" > 1.txt
+   9 date > /home/user/start/1.txt
+  10 cat  /home/user/start/1.txt
+  11 mkdir -p /opt/task
+  12 > /opt/task/start.txt
+  13 cp /home/user/start/1.txt /opt/task/start.txt
+  14 tree /opt
+  15 cat /opt/task/start.txt
+  16 ls -la  /opt/task/start.txt
+  17 ls -la  /opt/task/start.txt | awk '{print $9, $10, $11}'
+  18 history
+  19 history > /tmp/history.txt
+  20 export_file /tmp/history.txt
+  21 clear
+  22 mkdir _p /home/task/
+  23 > /home/task/file.txt
+  24 df -h >> /home/task/file.txt
+  25 cat /home/task/file.txt
+  26 history
+  27 cat /tmp/history.txt | tail -5
+  28 history | tail -5
+  29 history | tail -5 >> /home/task/file.txt
+  30 cat /proc/cpuinfo 
+  31 cat /proc/cpuinfo >> /home/task/file.txt
+  32 cat /home/task/file.txt | grep -w vendor_id
+  33 cat /home/task/file.txt 
+  34 sed -i '11,$ d' /home/task/file.txt
+  35 cat /home/task/file.txt
+  36 grep ^vendor /proc/cpuinfo >> /home/task/file.txt
+  37 cat /home/task/file.txt
+  38 vi /home/task/file.txt
+  39 history
+  40 history > /tmp/history2.txt
