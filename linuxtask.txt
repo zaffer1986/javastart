@@ -1,0 +1,12 @@
+#!/bin/bash
+ date
+ echo "It works!"
+for run in {1160218,2160218,3160218,4160218,5160218,6160218,7160218,8160218,916$
+do
+date +"%H:%M:%S"
+echo $run.txt
+done
+
+
+in /opt/41_42_evening/muzaffar/taskmuzaffar.sh
+crontab -e
